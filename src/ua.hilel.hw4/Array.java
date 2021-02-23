@@ -7,7 +7,7 @@ public class Array {
     public void arraySort() {
         int[] arr = {0, 17, 8, 7, -4, -18};
         for (int i = 0; i < arr.length; i++) {
-            arr[i] = arr[i] + arr[i];
+            arr[i] = arr[i] * arr[i];
         }
         for (int i = 1; i < arr.length; i++) {
             int key = arr[i];
