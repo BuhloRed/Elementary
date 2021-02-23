@@ -7,5 +7,7 @@ public class Main {
         Jewels match1 = new Jewels();
         match1.numJewelsInStones();
 
+        Array sort1 = new Array();
+        sort1.arraySort();
     }
 }
