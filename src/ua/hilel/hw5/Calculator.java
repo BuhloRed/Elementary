@@ -4,9 +4,12 @@ public class Calculator {
 
     public int plus(int[] arr) {
         int sum = 0;
-        for (int i = 0; i < arr.length; i++) {
-            sum = sum + arr[i];
+        for (int j : arr) {
+            sum = sum + j;
         }
         return sum;
+    }
+    public double multiply(double a, double b) {
+        return (a * b);
     }
 }
