@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class stringOperations {
 
         private String string1;
-        private boolean evenCheck;
+//        private boolean evenCheck;
 
 
         public void stringInput() {
@@ -31,5 +31,18 @@ public class stringOperations {
                         ms = string1.substring(string1.length()/2, string1.length()/2+1);
                 }
                 System.out.println(ms);
+        }
+        public void caseRevert(){
+                char[] cr = string1.toCharArray();
+                for (int i = 0; i < string1.length(); i++){
+                        char c = cr[i];
+                        if (Character.isUpperCase(c)){
+                                cr[i]=Character.toLowerCase(c);
+                        }
+                        else if (Character.isLowerCase(c)){
+                                cr[i]=Character.toUpperCase(c);
+                        }
+                }
+                System.out.println(cr);
         }
 }

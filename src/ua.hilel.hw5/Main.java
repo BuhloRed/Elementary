@@ -8,5 +8,6 @@ public class Main {
         st1.stringInput();
 //        st1.evenCounter();
         st1.middleSymbol();
+        st1.caseRevert();
     }
 }
