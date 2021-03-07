@@ -6,5 +6,6 @@ public class Main {
 
         stringOperations st1 = new stringOperations();
         st1.stringInput();
+        st1.evenCounter();
     }
 }

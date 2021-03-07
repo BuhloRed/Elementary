@@ -10,12 +10,15 @@ public class stringOperations {
                 Scanner in = new Scanner(System.in);
                 System.out.print("Input string: ");
                 string1 = in.nextLine();
-                System.out.println(string1);
         }
-        public void evenCounter(){
-
+        public void evenCounter() {
+                int count = 0;
+                for (int i = 0; i < string1.length(); i++) {
+                        count++;
+                }
+                System.out.println(count);
         }
-        public void middleSymbol(){
+        public void middleSymbol() {
 
         }
 }
