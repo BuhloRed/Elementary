@@ -17,10 +17,7 @@ public class stringOperations {
                 for (int i = 0; i < string1.length(); i++) {
                         count++;
                 }
-                if (count % 2==0)
-                        evenCheck = true;
-                else
-                        evenCheck = false;
+                evenCheck = count % 2 == 0;
                 System.out.println(evenCheck);
         }
         public void middleSymbol() {
