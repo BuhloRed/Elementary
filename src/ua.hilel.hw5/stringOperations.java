@@ -8,5 +8,6 @@ public class stringOperations {
                 Scanner in = new Scanner(System.in);
                 System.out.print("Input string: ");
                 String string1 = in.nextLine();
+                System.out.println(string1);
         }
 }
