@@ -12,6 +12,9 @@ public class stringOperations {
                 string1 = in.nextLine();
                 System.out.println(string1);
         }
+        public void evenCounter(){
+
+        }
         public void middleSymbol(){
 
         }
