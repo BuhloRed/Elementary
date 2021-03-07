@@ -4,5 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
+        stringOperations st1 = new stringOperations();
+        st1.stringInput();
     }
 }
